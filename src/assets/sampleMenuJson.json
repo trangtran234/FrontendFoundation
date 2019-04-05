@@ -1,0 +1,44 @@
+[
+    {
+        "icon": {
+            "icon1": "add",
+            "icon2": "keyboard_arrow_down"
+        },
+        "name": "New"
+    },
+    {
+        "icon": {
+            "icon1": "vertical_align_top",
+            "icon2": "keyboard_arrow_down"
+        },
+        "name": "Upload"
+    }, 
+    {
+        "icon": {
+            "icon1": "sync",
+            "icon2": ""
+        },
+        "name": "Sync"
+    }, 
+    {
+        "icon": {
+            "icon1": "https://img.icons8.com/color/32/000000/ms-excel.png",
+            "icon2": ""
+        },
+        "name": "Export to Excel"
+    }, 
+    {
+        "icon": {
+            "icon1": "donut_large",
+            "icon2": "keyboard_arrow_down"
+        },
+        "name": "Flow"
+    },
+    {
+        "icon": {
+            "icon1": "",
+            "icon2": "more_horiz"
+        },
+        "name": ""
+    }
+]

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { Document } from '../models/document.model';
+import { Menu, OptionMenu } from '../models/menu.model';
 
 @Injectable({
   providedIn: 'root'
@@ -13,5 +14,15 @@ export class DocumentService {
 
   getDocument(): Observable<Document[]> {
     return this.http.get<Document[]>(this.serviceUrl);
+  }
+}
+
+export class MenuService {
+  private serviceUrl = 'assets/sampleMenuJson.json';
+
+  constructor(private http: HttpClient) { }
+
+  getMenu(): Observable<Menu[]> {
+    return this.http.get<Menu[]>(this.serviceUrl);
   }
 }

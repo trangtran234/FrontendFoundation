@@ -1,4 +1,4 @@
-<div class="menu">
+<!-- <div class="menu">
   <button mat-button [matMenuTriggerFor]="new">
       <mat-icon color="error">add</mat-icon>
       New
@@ -15,7 +15,7 @@
       <mat-icon>keyboard_arrow_down</mat-icon>
     </button>
   <mat-menu #upload="matMenu">
-    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item >Item 1</button>
     <button mat-menu-item>Item 2</button>
   </mat-menu>
   
@@ -45,4 +45,20 @@
       <button mat-menu-item>Item 1</button>
       <button mat-menu-item>Item 2</button>
     </mat-menu>
+</div> -->
+
+<div *ngFor="let item of menu" class="menu">
+  <button mat-button [matMenuTriggerFor]="matMenuTrigger">
+    <img src="{{item.icon.icon1}}" *ngIf="item.icon.icon1.indexOf('.png') !== -1 ; else otherDisplayIconWay">
+    <ng-template #otherDisplayIconWay>
+      <mat-icon color="error" *ngIf="item.icon.icon1 !== ''">{{item.icon.icon1}}</mat-icon>
+    </ng-template>
+    {{ item.name }}
+    <mat-icon *ngIf="item.icon.icon2 !== ''">{{ item.icon.icon2 }}</mat-icon>
+  </button>
+
+  <mat-menu #matMenuTrigger="matMenu">
+    <button mat-menu-item>{{optionMenu.item1}}</button>
+    <button mat-menu-item>{{optionMenu.item2}}</button>
+  </mat-menu>
 </div>
