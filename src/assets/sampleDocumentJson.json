@@ -1,32 +1,37 @@
 [
   {
     "imagePath": "https://img.icons8.com/color/32/000000/folder.png",
+    "id": 0,
     "name": "CAS",
     "modified": "April 30",
-    "modifiedBy": "Megan Bowen"
+    "modified By": "Megan Bowen"
   },
   {
     "imagePath": "https://img.icons8.com/color/32/000000/ms-excel.png",
+    "id": 1,
     "name": "CoasterAndBargeLoading.xlsx",
     "modified": "A few seconds ago",
-    "modifiedBy": "Adminstrator MOD"
+    "modified By": "Adminstrator MOD"
   },
   {
     "imagePath": "https://img.icons8.com/color/32/000000/ms-excel.png",
+    "id": 2,
     "name": "RevenueByServices.xlsx",
     "modified": "A few seconds ago",
-    "modifiedBy": "Adminstrator MOD"
+    "modified By": "Adminstrator MOD"
   },
   {
     "imagePath": "https://img.icons8.com/color/32/000000/ms-excel.png",
+    "id": 3,
     "name": "RevenueByServices2016.xlsx",
     "modified": "A few seconds ago",
-    "modifiedBy": "Adminstrator MOD"
+    "modified By": "Adminstrator MOD"
   },
   {
     "imagePath": "https://img.icons8.com/color/32/000000/ms-excel.png",
+    "id": 4,
     "name": "RevenueByServices2017.xlsx",
     "modified": "A few seconds ago",
-    "modifiedBy": "Adminstrator MOD"
+    "modified By": "Adminstrator MOD"
   }
 ]

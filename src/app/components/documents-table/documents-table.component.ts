@@ -12,15 +12,11 @@ import { Document } from '../../models/document.model';
 
 export class DocumentsTableComponent implements OnInit {
   dataSource = new DocumentDataSource(this.documentService);
-  displayedColumns: string[] = ['checkedState', 'imagePath', 'name', 'modified', 'modifiedBy'];
+  displayedColumns: string[] = ['checkedState', 'imagePath', 'name', 'modified', 'modified By'];
 
   constructor(private documentService: DocumentService) { }
 
   ngOnInit() {
-  }
-
-  onClick() {
-    console.log("Make sure you want to choose the record?");
   }
 }
 
