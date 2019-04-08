@@ -1,3 +1,4 @@
+<app-menu></app-menu>
 <div>
   <span>Documents</span>
 
@@ -23,7 +24,7 @@
     <ng-container matColumnDef="{{itemCol}}" *ngFor="let itemCol of displayedColumns | slice:2">
       <th mat-header-cell *matHeaderCellDef mat-sort-header> {{itemCol | titlecase}}
       </th>
-      <td mat-cell *matCellDef="let element" routerLink="/document/{{element.id}}"> {{element[itemCol]}} </td>
+      <td mat-cell *matCellDef="let element" routerLink="/detail/{{element.id}}"> {{element[itemCol]}} </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

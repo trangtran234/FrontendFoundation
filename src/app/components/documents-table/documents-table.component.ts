@@ -11,6 +11,7 @@ import { Document } from '../../models/document.model';
 })
 
 export class DocumentsTableComponent implements OnInit {
+  
   dataSource = new DocumentDataSource(this.documentService);
   displayedColumns: string[] = ['checkedState', 'imagePath', 'name', 'modified', 'modified By'];
 
